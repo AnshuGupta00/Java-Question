@@ -9,7 +9,6 @@ public class ReadFileExample {
 
         try {
             sourceStream = new FileReader("D:\\test.txt");
-
             int temp;
             while ((temp = sourceStream.read()) != -1) {
                 System.out.print((char) temp);

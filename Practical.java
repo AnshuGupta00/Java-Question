@@ -4,9 +4,9 @@ public class Practical {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the order of matrix (n): ");
+        System.out.print("Enter the order of matrix (n):");
         int n = sc.nextInt();
-        
+
         int[][] a = new int[n][n];
         int[][] b = new int[n][n];
         double[][] div = new double[n][n];  
@@ -17,7 +17,6 @@ public class Practical {
                 a[i][j] = sc.nextInt();
             }
         }
-
         System.out.println("Enter Second Matrix Elements:");
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < n; j++) {
